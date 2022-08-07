@@ -368,7 +368,7 @@
       var shareString = "";
       var whatsappHref;
       shareString += "*" + sname + "*";
-      shareString += "%0ASend a special gift for you, click on the below link%0A";
+      shareString += "%0ASend a special message for you, click on the below link%0A";
       shareString += (window.location.href.split("?")[0] + "?n=" + sname).replace(/ /g, "-");
       whatsappHref = "whatsapp://send?text=" + shareString;
       window.location.href = whatsappHref;
